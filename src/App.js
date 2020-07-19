@@ -1,7 +1,8 @@
 import React from 'react';
 import shnLogo from './images/logo1.png'
 import './App.css';
-import {ScrollBar} from './components/scrollBar/ScrollBar'
+import { ScrollBar } from './components/scrollBar/ScrollBar'
+import { Sections } from './components/sections/Sections'
 
 function App() {
   return (
@@ -11,10 +12,8 @@ function App() {
       </header>
       <main>
         <ScrollBar/>
-        <div className='details'>
-          work title, page number, description
-        </div>
-        <div className='description'>
+        <Sections/>
+        <div className='sectionDetails'>
           <div>
             Image container
           </div>

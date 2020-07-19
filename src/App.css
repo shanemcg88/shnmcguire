@@ -26,12 +26,12 @@ main {
   display: inline-block;
 }
 
-.details {
+.sectionsContainer {
   border: 1px solid blue;
   width: 45%;
 }
 
-.description {
+.sectionDetails {
   border: 1px solid purple;
   width: 55%;
 }
