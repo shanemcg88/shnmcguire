@@ -1,9 +1,9 @@
-.sections {
+.work {
     display: flex;
     flex-wrap: wrap;
 }
 
-.sectionHeading {
+.workHeading {
     flex-basis:100%;
     border: 1px solid blue;
 }

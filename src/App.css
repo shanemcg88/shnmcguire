@@ -2,12 +2,15 @@
   padding: 20px;
   border: 1px solid green;
   height: 90vmin;
-  /* width: 100vmin; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 header {
   border: 1px solid black;
   height:100px;
+  flex-basis: 100%;
 }
 
 header img {
@@ -15,9 +18,15 @@ header img {
   width: 250px;
 }
 
+nav {
+  margin-top: 50px;
+}
+
 main {
   display: flex;
   margin-top: 50px;
+  flex-grow: 2;
+  border: 1px solid green;
 }
 
 .scrollMenu {
@@ -26,7 +35,7 @@ main {
   display: inline-block;
 }
 
-.sectionsContainer {
+.mainContainer {
   border: 1px solid blue;
   width: 45%;
 }
